@@ -1,12 +1,12 @@
 # Data_Transformer
 
-Overview
+# Overview
 
 Data Transformer is a practical MySQL project that demonstrates how SQL can be used to retrieve, transform, analyze, and present relational data.
 
 The project works with customer, order, and employee data and covers JOINs, subqueries, date functions, string functions, window functions, ranking, and conditional logic.
 
-Objectives
+# Objectives
 
 Combine data from multiple related tables.
 
@@ -24,9 +24,9 @@ Apply business rules using CASE.
 
 Build practical SQL queries for reporting and analysis.
 
-Database Tables
+# Database Tables
 
-customers
+# customers
 
 Column
 
@@ -52,7 +52,7 @@ RegistrationDate
 
 Registration date
 
-orders
+# orders
 
 Column
 
@@ -74,7 +74,7 @@ TotalAmount
 
 Total order value
 
-employees
+# employees
 
 Column
 
@@ -109,13 +109,9 @@ SQL Concepts Covered
 JOINs
 
 INNER JOIN
-
 LEFT JOIN
-
 RIGHT JOIN
-
 FULL OUTER JOIN simulation using UNION
-
 Subqueries
 
 Orders above average order amount
@@ -125,29 +121,21 @@ Employees above average salary
 Date Functions
 
 YEAR()
-
 MONTH()
-
 DATEDIFF()
-
 DATE_FORMAT()
 
 String Functions
 
 CONCAT()
-
 REPLACE()
-
 UPPER()
-
 LOWER()
-
 TRIM()
 
 Window Functions
 
 Running total using SUM() OVER()
-
 Ranking using RANK() OVER()
 
 Conditional Logic
@@ -160,28 +148,19 @@ CASE
     ELSE 'No Discount'
 END
 
-Important MySQL Note
-
-MySQL does not support FULL OUTER JOIN directly. Therefore, the project simulates it using LEFT JOIN + UNION + RIGHT JOIN.
-
 Technologies Used
 
 MySQL
-
 SQL
 
 MySQL Command Line Client
-
-MySQL Workbench (optional)
 
 How to Run
 
 Open MySQL Command Line Client or MySQL Workbench.
 
 Select your database:
-
 USE your_database_name;
-
 Check the tables:
 
 SHOW TABLES;
@@ -208,17 +187,6 @@ Project-2-Data-Transformer/
 │
 ├── project2_data_transformer.sql
 ├── README.md
-│
-└── screenshots/
-    ├── inner-join.png
-    ├── left-join.png
-    ├── right-join.png
-    ├── full-outer-join.png
-    ├── subquery.png
-    ├── date-functions.png
-    ├── string-functions.png
-    ├── window-functions.png
-    └── case-when.png
 
 Query Summary
 
