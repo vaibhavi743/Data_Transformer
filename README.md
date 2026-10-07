@@ -188,99 +188,44 @@ Project-2-Data-Transformer/
 ├── project2_data_transformer.sql
 ├── README.md
 
-Query Summary
+# Query Summary
 
-No.
+No.       Concept                    SQL Feature
 
-Concept
+1     Matching records               INNER JOIN
 
-SQL Feature
+2     All customers                  LEFT JOIN
 
-1
+3     All orders                     RIGHT JOIN
 
-Matching records
+4     Both-sided records             UNION + JOINs
 
-INNER JOIN
+5     Average order comparison       Subquery + AVG()
 
-2
+6     Average salary comparison      Subquery + AVG()
 
-All customers
+7     Extract date parts             YEAR(), MONTH()
 
-LEFT JOIN
+8     Date difference                DATEDIFF()
 
-3
+9     Date formatting                DATE_FORMAT()
 
-All orders
+10    Full customername              CONCAT()
 
-RIGHT JOIN
+11    Text replacement               REPLACE()
 
-4
+12    Case conversion                UPPER(), LOWER()
 
-Both-sided records
+13    Text cleaning                  TRIM()
 
-UNION + JOINs
+14    Running total                  SUM() OVER()
 
-5
+15    Ranking                        RANK()OVER()
 
-Average order comparison
+16    Discountrules                  CASE
 
-Subquery + AVG()
+17    Salary categories              CASE
 
-6
+Business Rules
 
-Average salary comparison
-
-Subquery + AVG()
-
-7
-
-Extract date parts
-
-YEAR(), MONTH()
-
-8
-
-Date difference
-
-DATEDIFF()
-
-9
-
-Date formatting
-
-DATE_FORMAT()
-
-10
-
-Full customer name
-
-CONCAT()
-
-11
-
-Text replacement
-
-REPLACE()
-
-12
-
-Case conversion
-
-UPPER(), LOWER()
-
-13
-
-Text cleaning
-
-TRIM()
-
-14
-
-Running total
-
-SUM() OVER()
-
-15
-
-Ranking
-
+Discount
