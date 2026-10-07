@@ -226,6 +226,54 @@ No.       Concept                    SQL Feature
 
 17    Salary categories              CASE
 
-Business Rules
+# Business Rules
 
-Discount
+# Discount
+
+TotalAmount > 1000 → 10% Discount
+
+TotalAmount > 500 → 5% Discount
+
+Otherwise → No Discount
+
+Using ELSE 'No Discount' prevents unmatched records from displaying NULL.
+
+# Salary
+
+Salary >= 55000 → High
+
+Salary >= 50000 → Medium
+
+Otherwise → Low
+
+These thresholds are project assumptions and can be changed if the assignment specifies different values.
+
+# Learning Outcomes
+
+After completing this project, the learner will understand:
+
+Relational table joins
+
+Subqueries and aggregate functions
+
+Date and string transformation
+
+Window functions
+
+Ranking and running totals
+
+Conditional business logic
+
+SQL-based reporting
+
+# Project Information
+
+Project: 2
+Title: Data Transformer
+Category: SQL / Database
+Database: MySQL
+Level: Beginner to Intermediate
+
+# Conclusion
+
+Data Transformer demonstrates practical SQL skills by combining multiple tables, transforming data, performing analytical calculations, and applying business rules.
