@@ -277,3 +277,10 @@ Level: Beginner to Intermediate
 # Conclusion
 
 Data Transformer demonstrates practical SQL skills by combining multiple tables, transforming data, performing analytical calculations, and applying business rules.
+
+
+---
+
+## 👩‍💻 Author
+
+**Vaibhavi Khokhani**
